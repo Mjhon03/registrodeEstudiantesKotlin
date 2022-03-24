@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Regitro de estudiantes</string>
+    <string name="splachScrennTitle">Mis pequeños saltamontes</string>
+    <string name="splachimg">SplachImg</string>
+    <string name="InicioRegistro">Iniciar registro de estudiante</string>
+    <string name="estadisticas">Estadisticas</string>
+    <string name="ayuda">Ayuda</string>
+    <string name="Title">Mis pequeños saltamontes</string>
+    <string name="registro">Registro de estudiante</string>
+    <string name="nombreEstudiante">Nombre completo</string>
+    <string name="documentoEstudiante">Documento</string>
+    <string name="edadEstudiante">Edad</string>
+    <string name="telefonoEstudiante">Telefono</string>
+    <string name="direccionEstudiante">Direccion</string>
+    <string name="image">Image</string>
+    <string name="ayudatext"> El objetivo de esta aplicacion es poder conocer el si el estudiante aprueba o no el periodo, para esto nos dirigimos a la pagina de inicio y damos en Iniciar registro de estudiante, ahi podremos ver diferentes campos para llenar, despues de haberlos llenado, le damos en calcular y la aplicacion nos dira si gana o pierde el periodo</string>
+    <string name="materia1">Materia 1</string>
+    <string name="materia2">Materia 2</string>
+    <string name="materia3">Materia 3</string>
+    <string name="materia4">Materia 4</string>
+    <string name="materia5">Materia 5</string>
+    <string name="nota">Nota final</string>
+    <string name="calcular">Calcular</string>
+    <string name="materias">Materias</string>
+    <string name="datos">Datos personales</string>
+    <string name="resultados">Resultados</string>
+    <string name="estadisticasEstudiantes">Estadistica Estudiantes</string>
+    <string name="cantidadEstudiantes">Cantidad de estudiantes procesados</string>
+    <string name="cantidadEstudiantesganan">Cantidad de estudiantes que ganan el periodo</string>
+    <string name="cantidadEstudiantespierden">Cantidad de estudiantes que pierden el periodo</string>
+    <string name="cantidadEstudiantesrecuperan">Cantidad de estudiantes que pueden recuperar</string>
+    <string name="notas">Notas</string>
+
+</resources>

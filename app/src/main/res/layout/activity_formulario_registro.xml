@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".FormularioRegistro">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/txtTitleRegistro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="37dp"
+            android:layout_marginEnd="74dp"
+            android:text="@string/registro"
+            android:textColorHint="@color/white"
+            android:textSize="25sp" />
+
+        <EditText
+            android:id="@+id/txtNombre"
+            android:layout_width="274dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="185dp"
+            android:layout_marginEnd="100dp"
+            android:autofillHints=""
+            android:ems="10"
+            android:hint="@string/nombreEstudiante"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:text=""
+            android:textColorHint="#757575"
+            tools:ignore="TextContrastCheck" />
+
+        <EditText
+            android:id="@+id/txtDocumento"
+            android:layout_width="274dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="130dp"
+            android:layout_marginEnd="100dp"
+            android:autofillHints=""
+            android:ems="10"
+            android:hint="@string/documentoEstudiante"
+            android:inputType="number"
+            android:minHeight="48dp"
+            android:text=""
+            android:textColorHint="#757575" />
+
+        <EditText
+            android:id="@+id/txtEdad"
+            android:layout_width="274dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="240dp"
+            android:layout_marginEnd="100dp"
+            android:autofillHints=""
+            android:ems="10"
+            android:hint="@string/edadEstudiante"
+            android:inputType="number"
+            android:minHeight="48dp"
+            android:text=""
+            android:textColorHint="#757575" />
+
+        <EditText
+            android:id="@+id/txtNumero"
+            android:layout_width="274dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="295dp"
+            android:layout_marginEnd="100dp"
+            android:autofillHints=""
+            android:ems="10"
+            android:hint="@string/telefonoEstudiante"
+            android:inputType="phone"
+            android:minHeight="48dp"
+            android:textColorHint="#757575" />
+
+        <EditText
+            android:id="@+id/txtDireccion"
+            android:layout_width="274dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="350dp"
+            android:layout_marginEnd="100dp"
+            android:autofillHints=""
+            android:ems="10"
+            android:hint="@string/direccionEstudiante"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:text=""
+            android:textColorHint="#757575" />
+
+        <EditText
+            android:id="@+id/txtMateria1"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="434dp"
+            android:layout_marginEnd="175dp"
+            android:autofillHints=""
+            android:ems="10"
+            android:hint="@string/materia1"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:text=""
+            android:textColorHint="#757575" />
+
+        <EditText
+            android:id="@+id/txtNota1"
+            android:layout_width="91dp"
+            android:layout_height="64dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="417dp"
+            android:layout_marginEnd="40dp"
+            android:ems="10"
+            android:hint="@string/nota"
+            android:inputType="numberDecimal"
+            android:textColorHint="#757575"
+            tools:ignore="DuplicateSpeakableTextCheck" />
+
+        <EditText
+            android:id="@+id/txtMateria2"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="484dp"
+            android:layout_marginEnd="175dp"
+            android:autofillHints=""
+            android:ems="10"
+            android:hint="@string/materia2"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:text=""
+            android:textColorHint="#757575" />
+
+        <EditText
+            android:id="@+id/txtNota2"
+            android:layout_width="91dp"
+            android:layout_height="64dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="467dp"
+            android:layout_marginEnd="40dp"
+            android:ems="10"
+            android:hint="@string/nota"
+            android:inputType="numberDecimal"
+            android:textColorHint="#757575" />
+
+        <EditText
+            android:id="@+id/txtMateria3"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="535dp"
+            android:layout_marginEnd="175dp"
+            android:ems="10"
+            android:hint="@string/materia3"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:text=""
+            android:textColorHint="#757575" />
+
+        <EditText
+            android:id="@+id/txtNota3"
+            android:layout_width="91dp"
+            android:layout_height="64dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="519dp"
+            android:layout_marginEnd="40dp"
+            android:ems="10"
+            android:hint="@string/nota"
+            android:inputType="numberDecimal"
+            android:textColorHint="#757575" />
+
+        <EditText
+            android:id="@+id/txtMateria4"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="588dp"
+            android:layout_marginEnd="175dp"
+            android:ems="10"
+            android:hint="@string/materia4"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:text=""
+            android:textColorHint="#757575" />
+
+
+        <EditText
+            android:id="@+id/txtNota4"
+            android:layout_width="91dp"
+            android:layout_height="64dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="573dp"
+            android:layout_marginEnd="40dp"
+            android:ems="10"
+            android:hint="@string/nota"
+            android:inputType="numberDecimal"
+            android:textColorHint="#757575" />
+
+        <EditText
+            android:id="@+id/txtMateria5"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="635dp"
+            android:layout_marginEnd="175dp"
+            android:autofillHints=""
+            android:ems="10"
+            android:hint="@string/materia5"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:text=""
+            android:textColorHint="#757575" />
+
+        <EditText
+            android:id="@+id/txtNota5"
+            android:layout_width="91dp"
+            android:layout_height="64dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="620dp"
+            android:layout_marginEnd="40dp"
+            android:ems="10"
+            android:hint="@string/nota"
+            android:inputType="numberDecimal"
+            android:textColorHint="#757575" />
+
+        <Button
+            android:id="@+id/btnCalcular"
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="693dp"
+            android:layout_marginEnd="42dp"
+            android:text="@string/calcular" />
+
+        <TextView
+            android:id="@+id/txtDatospersonales"
+            android:layout_width="222dp"
+            android:layout_height="42dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="93dp"
+            android:layout_marginEnd="152dp"
+            android:text="@string/datos"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txtMaterias"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="405dp"
+            android:layout_marginEnd="295dp"
+            android:text="@string/materias"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/iconSalir"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="331dp"
+            android:rotationY="-180"
+            app:srcCompat="@drawable/arror" />
+    </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>
+
