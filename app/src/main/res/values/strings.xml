@@ -13,7 +13,11 @@
     <string name="telefonoEstudiante">Telefono</string>
     <string name="direccionEstudiante">Direccion</string>
     <string name="image">Image</string>
-    <string name="ayudatext"> El objetivo de esta aplicacion es poder conocer el si el estudiante aprueba o no el periodo, para esto nos dirigimos a la pagina de inicio y damos en Iniciar registro de estudiante, ahi podremos ver diferentes campos para llenar, despues de haberlos llenado, le damos en calcular y la aplicacion nos dira si gana o pierde el periodo</string>
+    <string name="ayudatext">
+        Esta aplicacion tienes como objetivo dar a conocer si un estudiante gana o pierde el periodo dependiendo de sus notas, para realizar estes
+        proceso nos dirigimos a la pagina principal y accedemos a la pagina de inicio registro de estudiante, ya estando ahi debemos de rellezar todos los campos
+        con su correspondiente informacion y luego damos en calcular, ahora no debe de mostrar el resultado.
+    </string>
     <string name="materia1">Materia 1</string>
     <string name="materia2">Materia 2</string>
     <string name="materia3">Materia 3</string>
@@ -30,5 +34,6 @@
     <string name="cantidadEstudiantespierden">Cantidad de estudiantes que pierden el periodo</string>
     <string name="cantidadEstudiantesrecuperan">Cantidad de estudiantes que pueden recuperar</string>
     <string name="notas">Notas</string>
+    <string name="promedio">Conoce tu nota</string>
 
 </resources>

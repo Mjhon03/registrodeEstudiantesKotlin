@@ -3,13 +3,15 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/mjhon/OneDrive/Escritorio/Registrodeestudiantes/app/src/main/res/layout-land/activity_estadisticas.xml" value="0.16887125220458554" />
-        <entry key="..\:/Users/mjhon/OneDrive/Escritorio/Registrodeestudiantes/app/src/main/res/layout-land/activity_formulario_registro.xml" value="0.5" />
-        <entry key="..\:/Users/mjhon/OneDrive/Escritorio/Registrodeestudiantes/app/src/main/res/layout-land/activity_main.xml" value="0.16887125220458554" />
+        <entry key="..\:/Users/mjhon/OneDrive/Escritorio/Registrodeestudiantes/app/src/main/res/layout-land/activity_ayuda.xml" value="0.16887125220458554" />
+        <entry key="..\:/Users/mjhon/OneDrive/Escritorio/Registrodeestudiantes/app/src/main/res/layout-land/activity_estadisticas.xml" value="0.1" />
+        <entry key="..\:/Users/mjhon/OneDrive/Escritorio/Registrodeestudiantes/app/src/main/res/layout-land/activity_formulario_registro.xml" value="0.25" />
+        <entry key="..\:/Users/mjhon/OneDrive/Escritorio/Registrodeestudiantes/app/src/main/res/layout-land/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/mjhon/OneDrive/Escritorio/Registrodeestudiantes/app/src/main/res/layout-land/activity_resultado.xml" value="0.16887125220458554" />
         <entry key="..\:/Users/mjhon/OneDrive/Escritorio/Registrodeestudiantes/app/src/main/res/layout-land/activity_splash_screen.xml" value="0.16887125220458554" />
         <entry key="..\:/Users/mjhon/OneDrive/Escritorio/Registrodeestudiantes/app/src/main/res/layout/activity_ayuda.xml" value="0.1" />
-        <entry key="..\:/Users/mjhon/OneDrive/Escritorio/Registrodeestudiantes/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/mjhon/OneDrive/Escritorio/Registrodeestudiantes/app/src/main/res/layout/activity_estadisticas.xml" value="0.19947916666666668" />
+        <entry key="..\:/Users/mjhon/OneDrive/Escritorio/Registrodeestudiantes/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/mjhon/OneDrive/Escritorio/Registrodeestudiantes/app/src/main/res/layout/activity_resultado.xml" value="0.19947916666666668" />
         <entry key="..\:/Users/mjhon/OneDrive/Escritorio/Registrodeestudiantes/app/src/main/res/layout/activity_splash_screen.xml" value="0.1" />
       </map>

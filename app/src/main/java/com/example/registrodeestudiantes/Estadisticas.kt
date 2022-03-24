@@ -5,8 +5,10 @@ import Clases.Operaciones.Companion.listaEstudiantes
 import Clases.Operaciones.Companion.listaEstudiantesGanan
 import Clases.Operaciones.Companion.listaEstudiantesPierden
 import Clases.Operaciones.Companion.listaEstudiantesRecuperan
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.ImageView
 import android.widget.TextView
 import android.widget.Toast
 
@@ -32,13 +34,14 @@ class Estadisticas : AppCompatActivity() {
         inputCantidadPierden.text=cantidadEstudiantePierden.toString()
         inputCantidadRecuperan.text=cantidadEstudianteRecuperan.toString()
 
-//        estadisticas()
+        val btnsalir: ImageView = findViewById(R.id.iconSalir)
+        btnsalir.setOnClickListener{onClick()}
+
     }
 
-//    private fun estadisticas() {
-//
-//
-//        operaciones?.imprimirListaEstudiantes()
-//        Toast.makeText(this, cantidadEstudiantes,Toast.LENGTH_LONG).show()
-//    }
+    private fun onClick() {
+        val intent = Intent(this,MainActivity::class.java)
+        startActivity(intent)
+    }
+
 }
