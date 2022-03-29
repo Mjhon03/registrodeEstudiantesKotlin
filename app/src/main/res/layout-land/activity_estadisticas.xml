@@ -12,21 +12,22 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent">
-                <TextView
-                    android:id="@+id/txtEstadisticaEstudiantes"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentTop="true"
-                    android:layout_alignParentEnd="true"
-                    android:layout_marginTop="50dp"
-                    android:layout_marginEnd="235dp"
-                    android:text="@string/estadisticasEstudiantes"
-                    android:textSize="25sp"
-                    android:textColorHint="@color/black"
-                    tools:layout_editor_absoluteX="176dp"
-                    tools:layout_editor_absoluteY="49dp" />
 
-                <TextView
+            <TextView
+                android:id="@+id/txtEstadisticaEstudiantes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="39dp"
+                android:layout_marginEnd="298dp"
+                android:text="@string/estadisticasEstudiantes"
+                android:textColorHint="@color/black"
+                android:textSize="25sp"
+                tools:layout_editor_absoluteX="176dp"
+                tools:layout_editor_absoluteY="49dp" />
+
+            <TextView
                     android:id="@+id/txtCantEstudiantes"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"

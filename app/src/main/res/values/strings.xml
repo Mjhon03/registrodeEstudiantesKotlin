@@ -30,8 +30,8 @@
     <string name="resultados">Resultados</string>
     <string name="estadisticasEstudiantes">Estadistica Estudiantes</string>
     <string name="cantidadEstudiantes">Cantidad de estudiantes procesados</string>
-    <string name="cantidadEstudiantesganan">Cantidad de estudiantes que ganan el periodo</string>
-    <string name="cantidadEstudiantespierden">Cantidad de estudiantes que pierden el periodo</string>
+    <string name="cantidadEstudiantesganan">Cantidad de estudiantes que ganan</string>
+    <string name="cantidadEstudiantespierden">Cantidad de estudiantes que pierden</string>
     <string name="cantidadEstudiantesrecuperan">Cantidad de estudiantes que pueden recuperar</string>
     <string name="notas">Notas</string>
     <string name="promedio">Conoce tu nota</string>
